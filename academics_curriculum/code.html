@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-fixed-dim": "#fdba45", "on-secondary": "#ffffff", "surface-container": "#e6eeff", "tertiary-fixed-dim": "#adc7f7", "on-secondary-fixed": "#281900", "secondary-fixed": "#ffdeae", "error-container": "#ffdad6", "on-error-container": "#93000a", "secondary": "#7f5700", "on-primary-fixed": "#001b3b", "tertiary": "#001430", "on-error": "#ffffff", "on-primary": "#ffffff", "on-tertiary-container": "#7791bd", "surface-container-high": "#dce9ff", "on-background": "#0d1c2e", "surface-dim": "#ccdbf3", "on-secondary-container": "#6f4b00", "inverse-surface": "#233144", "on-tertiary-fixed": "#001b3c", "outline-variant": "#c4c6cf", "on-surface": "#0d1c2e", "surface": "#f8f9ff", "outline": "#74777f", "inverse-on-surface": "#eaf1ff", "primary-container": "#0f294a", "on-tertiary-fixed-variant": "#2d476f", "on-surface-variant": "#44474e", "surface-tint": "#485f83", "error": "#ba1a1a", "inverse-primary": "#b0c8f1", "tertiary-container": "#09294f", "secondary-container": "#fdba45", "surface-container-highest": "#d5e3fc", "primary": "#00142f", "on-primary-fixed-variant": "#30476a", "primary-fixed": "#d5e3ff", "surface-variant": "#d5e3fc", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#604100", "primary-fixed-dim": "#b0c8f1", "surface-container-low": "#eff4ff", "tertiary-fixed": "#d6e3ff", "surface-bright": "#f8f9ff", "on-primary-container": "#7a91b7", "background": "#f8f9ff", "on-tertiary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "space-sm": "0.5rem", "margin": "3rem", "space-xl": "2.5rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "margin-tablet": "2rem", "space-lg": "1.5rem", "gutter": "1.5rem", "gutter-mobile": "1rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Merriweather"], "display-hero-mobile": ["Merriweather"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "headline-lg": ["Merriweather"], "display-hero": ["Merriweather"], "headline-sm": ["Merriweather"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-md": ["Merriweather"] }, "fontSize": { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg-mobile": ["28px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "title-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["40px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "display-hero": ["56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "38px", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,20,47,0.06)]"><div class="bg-primary text-on-primary py-space-xs px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-1 font-label-sm text-label-sm"><div class="flex items-center gap-space-lg flex-wrap"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-secondary-fixed-dim">call</span>+1 (555) 234-5678</span><span class="hidden sm:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-secondary-fixed-dim">mail</span>info@stjudeacademy.edu</span><span class="hidden md:flex items-center gap-space-xs text-primary-fixed"><span class="material-symbols-outlined text-[14px] text-secondary-fixed-dim">schedule</span>Mon-Fri 8:00 AM - 4:30 PM</span></div><div class="flex items-center gap-space-md ml-auto"><a class="hover:text-secondary-fixed-dim transition-colors" data-path="parent-portal" href="#">Parent Portal</a><span class="text-primary-container font-light">|</span><a class="hover:text-secondary-fixed-dim transition-colors" data-path="staff-portal" href="#">Staff Login</a><span class="text-primary-container font-light">|</span><a class="hover:text-secondary-fixed-dim transition-colors" data-path="academic-calendar" href="#">Academic Calendar</a></div></div></div><div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="School Crest Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIBGJ18M08q-2Zx9nFkwGExT7dopk4JOANZVd__dFruB0qIr__0ZXkdBMbChP-vXEPhfmRvWmG0fYBN1Yn2oBqperj4PR2iT8B4VOn2ksqGa-FpxxzARzo8KRtYO5vbU3mOZxJI9vq3TKY3sZiWnnQYItaB6cWvYZiMRTQbSDeUqik7bJkfhRNih2CBFDeu-e9-da3-r8Wx2lZczn4OgkzS8XX7ZtdI-lEvyuUDfySvROrpY11c2sf8Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight">St. Jude Academy</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Excellence, Integrity, Leadership</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg"><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="home" href="#">Home</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about-us" href="#">About Us</a><a aria-current="page" class="px-space-sm py-space-xs transition-all bg-surface-container-high text-on-surface font-semibold rounded-lg" data-path="academics" href="#">Academics</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="admissions" href="#">Admissions</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="facilities-and-campus" href="#">Facilities &amp; Campus</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="student-life" href="#">Student Life</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="events-and-news" href="#">Events &amp; News</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact-us" href="#">Contact Us</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Search academy records" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded font-label-md text-label-md bg-secondary text-on-primary font-bold hover:bg-primary transition-all shadow-sm" data-path="admissions-process" href="#">Apply Now</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Heritage Breadcrumb & Meta Bar -->
+<section class="w-full bg-surface-container-low py-space-sm px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-2">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors" data-path="home" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-bold">Academics &amp; Curriculum</span>
+</div>
+<div class="flex items-center gap-space-md font-label-sm text-label-sm">
+<span class="flex items-center gap-space-xs text-secondary font-bold">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+          Dual Accreditation: NAIS &amp; IB World School
+        </span>
+<span class="text-outline-variant font-light hidden sm:inline">•</span>
+<span class="text-on-surface-variant hidden sm:inline">2025–2026 Academic Prospectus Active</span>
+</div>
+</div>
+</section>
+<!-- Hero & Academic Philosophy: Asymmetric Editorial Canvas -->
+<section class="w-full py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]">auto_stories</span>
+          SCHOLARLY TRADITION • CONTEMPORARY INQUIRY
+        </div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Academic Rigor, Creative Discovery &amp; Global Citizenship
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          At St. Jude Academy, intellectual discipline is not an exercise in passive memorization, but an active pursuit of truth. Our pedagogical architecture synthesizes Socratic inquiry, rigorous STEM+Arts integration (STEAM), and personal faculty mentorship—preparing agile minds for world-class universities and principled lives.
+        </p>
+<!-- Key Methodology Pillars Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-sm">
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">biotech</span>
+<h2 class="font-title-md text-title-md text-primary">Inquiry-Led STEM</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Computational thinking &amp; hands-on wet labs from Grade 3 onward.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">palette</span>
+<h2 class="font-title-md text-title-md text-primary">Arts Integration</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Visual, dramatic, and sonic disciplines woven into daily academic dialogue.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">groups</span>
+<h2 class="font-title-md text-title-md text-primary">1:1 Mentorship</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Each student paired with a dedicated faculty fellow throughout Upper School.</p>
+</div>
+</div>
+</div>
+<!-- Right Editorial Collage with SVG Data Visualization -->
+<div class="lg:col-span-5 relative">
+<div class="rounded-xl overflow-hidden shadow-xl bg-surface-container-high aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="High school students collaborating around a polished oak conference table in a modern sunlit library with architectural arches, leather bound books, tablet computers, wearing navy blazers and focused expressions in natural morning daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbxTFZa3fA5QCjDouA-vP7EMFY3cVzXCoySR9winPV7UoSjYT9tx09wNixnmx6yA4d3Fm3LKw9mUklTI0j9GhN_s-OjjL8kAW8G5AlxRwdYHdsyQQJxyj8GULc5cAIyaubmBWZ5EVXX-ghiQxRwcDw_QEUDr5sqMVYVXkfkBnxo-vcpZCCoJWn-PgqWYtpqO8cr7kF33bKoLhA_tX3dbWm3D_pOwwXEM2utymxvqnbWfA96KByg3UWSQ"/>
+</div>
+<!-- Overlapping Statistical Card -->
+<div class="mt-space-sm lg:-mt-12 lg:-ml-8 relative z-10 p-space-lg rounded-xl bg-primary text-on-primary shadow-xl space-y-space-sm">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider">Academic Profile</span>
+<p class="font-headline-sm text-headline-sm text-on-primary">Scholastic Benchmark</p>
+</div>
+<span class="material-symbols-outlined text-secondary-fixed text-[32px]">workspace_premium</span>
+</div>
+<!-- Micro SVG Metric Chart -->
+<div class="pt-space-xs space-y-space-xs">
+<div class="flex justify-between font-label-md text-label-md text-primary-fixed">
+<span>IB Diploma Pass Rate</span>
+<span class="font-bold text-on-primary">98.4%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-primary-container overflow-hidden">
+<div class="h-full bg-secondary-fixed-dim rounded-full" style="width: 98.4%;"></div>
+</div>
+<div class="flex justify-between font-label-md text-label-md text-primary-fixed pt-space-xs">
+<span>Avg AP Score (Scored 4 or 5)</span>
+<span class="font-bold text-on-primary">89.1%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-primary-container overflow-hidden">
+<div class="h-full bg-secondary-fixed-dim rounded-full" style="width: 89.1%;"></div>
+</div>
+</div>
+<div class="flex items-center gap-space-md pt-space-xs font-label-sm text-label-sm text-primary-fixed-dim">
+<span class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span>1:7 Faculty-Student Ratio</span>
+<span class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span>100% College Matriculation</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Program Divisions (Tabbed Interactive Explorer) -->
+<section class="w-full py-space-xl bg-surface-container-low px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Academic Pipeline</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Program Divisions</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          A seamless continuum from formative childhood wonder to collegiate-level independent scholarship across three developmental milestones.
+        </p>
+</div>
+<!-- Division Switcher Tabs -->
+<div class="flex flex-wrap gap-space-xs p-1.5 rounded-xl bg-surface-container-high w-fit shadow-sm" id="division-tabs">
+<button class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg transition-all text-on-surface-variant hover:text-primary" id="tab-elementary" onclick="switchDivision('elementary')">
+          Lower School (K–5)
+        </button>
+<button class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg transition-all text-on-surface-variant hover:text-primary" id="tab-middle" onclick="switchDivision('middle')">
+          Middle School (Grades 6–8)
+        </button>
+<button class="px-space-md py-space-xs rounded-lg font-label-lg text-label-lg transition-all bg-primary text-on-primary shadow-sm" id="tab-high" onclick="switchDivision('high')">
+          Upper School &amp; College Prep (Grades 9–12)
+        </button>
+</div>
+<!-- Panel: Upper School (Default Active) -->
+<div class="division-panel grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch" id="panel-high">
+<div class="lg:col-span-7 p-space-xl rounded-xl bg-surface shadow-md space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-bold">GRADES 9–12</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rigorous Advanced Placement &amp; IB Pathways</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Collegiate Autonomy, Intellectual Distinction</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              The Upper School program transforms students into independent researchers and articulate communicators. Scholars select between an Advanced Placement (AP) honors concentration or the globally revered International Baccalaureate (IB) Diploma Programme, accompanied by a senior capstone thesis defended before collegiate panels.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">psychology</span>
+                  24 AP &amp; 18 IB Courses
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dual-track collegiate catalog including Multivariable Calculus, Bioethics, and Macroeconomics.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">school</span>
+                  Senior Capstone Thesis
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Original 4,000-word peer-reviewed scholarly inquiry under university-affiliated faculty advisors.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">explore</span>
+                  Four-Year College Office
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Individualized roadmaps beginning in Grade 9, test prep diagnostics, and dedicated admissions visits.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">public</span>
+                  Global Scholars Diploma
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Trilingual proficiency requirement and 120 verified hours of international community civic stewardship.</p>
+</div>
+</div>
+</div>
+<div class="pt-space-sm flex items-center gap-space-md">
+<a class="px-space-md py-space-xs rounded bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all" data-path="admissions-process" href="#">
+              View Upper School Course Catalog
+            </a>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Curriculum updated annually</span>
+</div>
+</div>
+<div class="lg:col-span-5 rounded-xl overflow-hidden shadow-md flex flex-col">
+<div class="h-64 sm:h-80 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High school senior students in an advanced collegiate biotechnology wet laboratory wearing lab coats and safety goggles, analyzing test tubes under halogen light in a modern academic environment with St. Jude crest on lab uniforms." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpvsOJMgY5uiNjTHYLMUkouwVu73Fpya7N9fdoEWVU2RidcQlhLO_EkeBRA7BObiXhnXrIRcht6UW7xo5L_5ShlR-7388FR41R69FinxYcQtHWXtOaWwrWu4yxsETGN6_JCh-nHrMetdv5N6ceJvWCTvMAxANr2GZUlK95CesPnp0XkHUETc-zeW_3RgZLtK71o1LycBUGKWRZBh8wl7__NQP-erGwMM-2C0f8rnlk1MCx8jesuvZ66w"/>
+</div>
+<div class="p-space-md bg-surface-container flex-1 space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Upper School Spotlight</span>
+<p class="font-title-md text-title-md text-primary">The Harkness Round Table Tradition</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Upper division humanities seminars are conducted entirely at oval tables of no more than 14 scholars, cultivating civil discourse, rhetorical mastery, and rapid peer synthesis.</p>
+</div>
+</div>
+</div>
+<!-- Panel: Middle School (Hidden by default) -->
+<div class="division-panel hidden grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch" id="panel-middle">
+<div class="lg:col-span-7 p-space-xl rounded-xl bg-surface shadow-md space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-bold">GRADES 6–8</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Inquiry, Self-Advocacy &amp; Empirical Reasoning</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Navigating Complexity with Curiosity</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              The Middle School bridge is designed around developmental psychology: cultivating critical autonomy while safeguarding collaborative empathy. Students rotate through intensive laboratory blocks, explore world languages, and develop structured argumentative writing across every discipline.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">science</span>
+                  Empirical Science Labs
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Earth systems, chemistry fundamentals, and coding in Python taught through physical robotics kits.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">translate</span>
+                  Tri-Lingual Exploration
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Accelerated introductory courses in French, Spanish, or Mandarin with native oral assessment.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">volunteer_activism</span>
+                  Character Leadership Guild
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bi-weekly seminar in ethical decision-making, digital footprint stewardship, and speech &amp; debate.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">calculate</span>
+                  Accelerated Pre-Calculus
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Differentiated mathematics cohorts allowing high-aptitude scholars to enter Geometry in Grade 8.</p>
+</div>
+</div>
+</div>
+<div class="pt-space-sm flex items-center gap-space-md">
+<a class="px-space-md py-space-xs rounded bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all" data-path="admissions-process" href="#">
+              Explore Middle School Curriculum
+            </a>
+</div>
+</div>
+<div class="lg:col-span-5 rounded-xl overflow-hidden shadow-md flex flex-col">
+<div class="h-64 sm:h-80 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Middle school students in blue academy knit sweaters assembling an autonomous robotics vehicle with wires and small circuit boards in a bright makerspace workshop with architectural wood accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs1qz6qS6nLOkTCg8iXXLbBwZpMp2PJzfwlPwLBhkTj5LWnZAsmnnGJ_tG3z4myMBIU57dGZ2WI8SHlgv1LoUGE-ZICZqzsJ1GthkMhcFesEy6hjWMO8ccSOPKYDSxS4Wb0rd0GbTw2FQkrxcs6SKt32R1x59SqqR-XIXIkFJrBxrDroejTWPnTxVxPm3w2FcAro8mu5ra9BJtpgZNteH4TinQRa-HL-zILmcFjOaASpWjIh75FQat7w"/>
+</div>
+<div class="p-space-md bg-surface-container flex-1 space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Middle School Project</span>
+<p class="font-title-md text-title-md text-primary">The Annual Grade 8 Colloquium</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Every eighth-grade scholar designs and defends an applied community solution incorporating field data, economic modeling, and interactive physical prototypes.</p>
+</div>
+</div>
+</div>
+<!-- Panel: Lower School (Hidden by default) -->
+<div class="division-panel hidden grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch" id="panel-elementary">
+<div class="lg:col-span-7 p-space-xl rounded-xl bg-surface shadow-md space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-bold">KINDERGARTEN – GRADE 5</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Wonder, Foundational Fluency &amp; Sensory Joy</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Inspiring the Lifelong Love of Learning</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              The Lower School instills deep linguistic confidence, conceptual arithmetic masteries, and sensory wonder. Guided by classical literature and hands-on environmental exploration, our youngest scholars build the cognitive architecture for enduring intellectual independence.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">menu_book</span>
+                  Structured Phonics &amp; Classics
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Direct phonetic instruction coupled with daily oral storytelling and junior canon seminar.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">calculate</span>
+                  Singapore Math Foundations
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Concrete-to-pictorial-to-abstract numeric literacy developing deep mental arithmetic agility.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">forest</span>
+                  Outdoor Forest Stewardship
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Weekly experiential field observation in our 40-acre campus arboretum and biological gardens.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-space-xs">
+<div class="flex items-center gap-space-xs font-title-md text-title-md text-primary">
+<span class="material-symbols-outlined text-secondary text-[20px]">music_note</span>
+                  Kodály &amp; Orff Music Studio
+                </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Early melodic ear training, rhythm mastery, and multi-instrumental ensemble performance.</p>
+</div>
+</div>
+</div>
+<div class="pt-space-sm flex items-center gap-space-md">
+<a class="px-space-md py-space-xs rounded bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all" data-path="admissions-process" href="#">
+              Discover Lower School Curricula
+            </a>
+</div>
+</div>
+<div class="lg:col-span-5 rounded-xl overflow-hidden shadow-md flex flex-col">
+<div class="h-64 sm:h-80 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Elementary age school children in warm St. Jude uniforms gathered outdoors with magnifying glasses and field notebooks studying plant leaves in a lush botanical arboretum under soft afternoon sunshine." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_yWjMULK7O-7PP671SP6EjivLcyV4Md8JD72NUclSrvr6awHxJHmgIGWd06uHi9MjAF51rSovK375Ikj_ied9tOMISAlOmTUUK2cwMpmGgS4Fh3HvDKSvtDse0GetBnhkDQOtc5GGieo7wyQv92BlKPX4szR7NASCaYE7ozENz_l8cAyVR92uDsmfLWaGTI6zUpn_XayjDG15-XgQ7sEx1Rsv_1WY2LevqNv24zgmgecadcDTGJmeyQ"/>
+</div>
+<div class="p-space-md bg-surface-container flex-1 space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Lower School Spotlight</span>
+<p class="font-title-md text-title-md text-primary">The Young Authors' Guild</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Every Grade 4 and 5 student authors, illustrates, and binds their own hardcover fiction anthology, archived inside the Bancroft Memorial Library.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Departments & Subject Areas (Bento Grid) -->
+<section class="w-full py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto space-y-space-xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Subject Mastery</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Departments &amp; Academic Faculties</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Our curriculum spans five interconnected academic chairs, delivering college-standard depth across liberal arts, quantitative research, and athletic rigor.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Dept 1: Humanities & Literature (Span 2 on Desktop) -->
+<div class="lg:col-span-2 p-space-lg rounded-xl bg-surface-container shadow-sm space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">CHAIR OF LIBERAL ARTS</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">history_edu</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Humanities, Rhetoric &amp; Classical Literature</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Grounded in the western and global canon, the Humanities curriculum trains scholars to interrogate primary documents, discern nuanced ideological subtexts, and write with surgical economy. Courses synthesize world history with comparative political philosophy.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs pt-space-xs font-body-sm text-body-sm">
+<div class="p-space-xs rounded bg-surface-container-lowest">
+<span class="font-bold text-primary block">AP English Literature &amp; Comp</span>
+<span class="text-on-surface-variant">Collegiate textual dissection &amp; critical poetics.</span>
+</div>
+<div class="p-space-xs rounded bg-surface-container-lowest">
+<span class="font-bold text-primary block">Global Historiography (IB HL)</span>
+<span class="text-on-surface-variant">Comparative analysis of non-western revolutions.</span>
+</div>
+<div class="p-space-xs rounded bg-surface-container-lowest">
+<span class="font-bold text-primary block">Classical Moral Philosophy</span>
+<span class="text-on-surface-variant">Aristotelian ethics through modern jurisprudence.</span>
+</div>
+<div class="p-space-xs rounded bg-surface-container-lowest">
+<span class="font-bold text-primary block">Socratic Rhetoric Practicum</span>
+<span class="text-on-surface-variant">Extemporaneous debate and parliamentary address.</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-bold">Standards: NAIS Classical Framework &amp; IB Group 3</span>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Dept 2: STEM & Computational Sciences -->
+<div class="p-space-lg rounded-xl bg-surface-container shadow-sm space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">CHAIR OF QUANTITATIVE STUDIES</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">memory</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">STEM &amp; Computational Sciences</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              From discrete algorithmic structures to collegiate multivariable calculus and organic synthesis, scholars participate in university-level laboratory inquiry.
+            </p>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>AP Computer Science A &amp; Data Structures</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Multivariable Calculus &amp; Linear Algebra</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Collegiate Physics C (Mechanics &amp; E&amp;M)</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Molecular Genetics &amp; Wet-Lab CRISPR</span></li>
+</ul>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-bold">Standards: NGSS &amp; College Board AP</span>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Dept 3: World Languages -->
+<div class="p-space-lg rounded-xl bg-surface-container shadow-sm space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">CHAIR OF GLOBAL LINGUISTICS</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">language</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">World Languages &amp; Culture</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Immersive target-language classrooms fostering true polyglot fluency, diplomatic etiquette, and cultural comprehension across European and Asian tongues.
+            </p>
+<div class="space-y-space-xs font-body-sm text-body-sm">
+<div class="p-space-xs rounded bg-surface-container-lowest flex justify-between items-center">
+<span class="font-bold text-primary">Spanish Literature &amp; Debate</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">AP / IB HL</span>
+</div>
+<div class="p-space-xs rounded bg-surface-container-lowest flex justify-between items-center">
+<span class="font-bold text-primary">French Francophone Cinema</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">DELF B2 / C1</span>
+</div>
+<div class="p-space-xs rounded bg-surface-container-lowest flex justify-between items-center">
+<span class="font-bold text-primary">Mandarin Hanzi &amp; Calligraphy</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">HSK Level 5</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-bold">Immersion Trips: Madrid, Lyon, Taipei</span>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Dept 4: Fine & Performing Arts -->
+<div class="p-space-lg rounded-xl bg-surface-container shadow-sm space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">CHAIR OF CREATIVE EXPRESSION</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">theater_comedy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Fine, Dramatic &amp; Sonic Arts</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Conservatory-grade training inside our 650-seat proscenium theater, black-box rehearsal chambers, digital media suite, and kiln ceramic foundry.
+            </p>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Symphonic Chamber Orchestra &amp; Honors Choir</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Studio 2D/3D Design Portfolio (AP)</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Contemporary Dramaturgy &amp; Stagecraft</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Digital Cinematic Production &amp; Sound Lab</span></li>
+</ul>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-bold">Annual Gallery Showcase at Boston MFA</span>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Dept 5: Physical Education & Health -->
+<div class="p-space-lg rounded-xl bg-surface-container shadow-sm space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">CHAIR OF KINESIOLOGY</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">fitness_center</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Athletic Leadership &amp; Well-Being</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Cultivating enduring physical vitality, strategic teamwork, biomechanical understanding, and mental resilience through structured collegiate conditioning.
+            </p>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Kinesiology &amp; Human Sports Physiology</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Varsity Athletics (Rowing, Lacrosse, Squash)</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Mindfulness, Nutrition &amp; Stress Management</span></li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span>Wilderness Navigation &amp; Expeditionary Skills</span></li>
+</ul>
+</div>
+<div class="pt-space-xs flex items-center justify-between font-label-md text-label-md">
+<span class="text-secondary font-bold">State Champions 2023 &amp; 2024</span>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Academic Calendar & Term Schedules (Interactive Terminal) -->
+<section class="w-full py-space-xl bg-surface-container-low px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Schedules &amp; Milestones</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">2025–2026 Academic Calendar</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container transition-all font-label-md text-label-md font-bold" download="" href="#">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+            Download Full Printable Calendar (PDF)
+          </a>
+</div>
+</div>
+<!-- Term Selector Tabs -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4 space-y-space-xs">
+<div class="term-nav cursor-pointer p-space-md rounded-xl bg-primary text-on-primary shadow-md transition-all" id="term-nav-fall" onclick="selectTerm('fall')">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md">Fall Semester 2025</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed font-bold">AUG – DEC</span>
+</div>
+<p class="font-body-sm text-body-sm text-primary-fixed mt-1">Orientation, Convocation &amp; Midterm Colloquia</p>
+</div>
+<div class="term-nav cursor-pointer p-space-md rounded-xl bg-surface shadow-sm hover:bg-surface-container transition-all" id="term-nav-spring" onclick="selectTerm('spring')">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Spring Term 2026</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">JAN – MAY</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Global Immersion, AP/IB Testing &amp; Commencement</p>
+</div>
+<div class="term-nav cursor-pointer p-space-md rounded-xl bg-surface shadow-sm hover:bg-surface-container transition-all" id="term-nav-summer" onclick="selectTerm('summer')">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary">Summer Academies 2026</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">JUN – JUL</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Intensive Research Residencies &amp; Language Labs</p>
+</div>
+<!-- Academic Office Contact Widget -->
+<div class="p-space-md rounded-xl bg-surface-container space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Registrar's Office</span>
+<p class="font-body-sm text-body-sm text-on-surface">For formal transcripts and scheduling changes, email <span class="font-semibold text-primary">registrar@stjudeacademy.edu</span>.</p>
+</div>
+</div>
+<!-- Interactive Schedule Table for Active Term -->
+<div class="lg:col-span-8 p-space-lg rounded-xl bg-surface shadow-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary" id="term-display-title">Key Academic Dates &amp; Examinations</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="term-display-subtitle">Fall Semester: August 28, 2025 – December 19, 2025</p>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Fall 2025</span>
+</div>
+<!-- Schedule Row Items -->
+<div class="space-y-space-xs pt-space-xs" id="term-events-container">
+<!-- Event 1 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-start gap-space-sm">
+<div class="w-12 h-12 rounded bg-primary text-on-primary flex flex-col items-center justify-center font-bold">
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed">AUG</span>
+<span class="text-title-md">28</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary">Faculty Convocation &amp; Boarding Move-In</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mandatory residential orientation and adviser meet-and-greets.</p>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-surface text-on-surface font-semibold self-start sm:self-auto">All School</span>
+</div>
+<!-- Event 2 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-start gap-space-sm">
+<div class="w-12 h-12 rounded bg-primary text-on-primary flex flex-col items-center justify-center font-bold">
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed">SEP</span>
+<span class="text-title-md">02</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary">First Day of Classes (K–12)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Formal academic dress code required. Morning chapel gathering at 8:30 AM.</p>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-surface text-on-surface font-semibold self-start sm:self-auto">Instructional</span>
+</div>
+<!-- Event 3 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-start gap-space-sm">
+<div class="w-12 h-12 rounded bg-primary text-on-primary flex flex-col items-center justify-center font-bold">
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed">OCT</span>
+<span class="text-title-md">17</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary">Parent-Teacher Consultation Days</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">No classes. Individualized 20-minute portfolio reviews with academic chairs.</p>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-semibold self-start sm:self-auto">Conferences</span>
+</div>
+<!-- Event 4 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-start gap-space-sm">
+<div class="w-12 h-12 rounded bg-primary text-on-primary flex flex-col items-center justify-center font-bold">
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed">NOV</span>
+<span class="text-title-md">24</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary">Thanksgiving Scholastic Recess</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Campus residences close Nov 24 at 18:00; reopen Nov 30 at 12:00.</p>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-surface text-on-surface font-semibold self-start sm:self-auto">Recess</span>
+</div>
+<!-- Event 5 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-start gap-space-sm">
+<div class="w-12 h-12 rounded bg-primary text-on-primary flex flex-col items-center justify-center font-bold">
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed">DEC</span>
+<span class="text-title-md">15</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary">Upper School Fall Comprehensive Exams</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rigorous proctored finals across STEM and Humanities disciplines through Dec 19.</p>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-error-container text-on-error-container font-semibold self-start sm:self-auto">Exams</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Faculty & Department Heads Spotlight -->
+<section class="w-full py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto space-y-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Eminent Pedagogy</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Distinguished Department Chairs</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          78% of St. Jude faculty hold terminal or doctorate degrees from leading global universities, bringing active research experience into secondary classrooms.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Faculty 1 -->
+<div class="rounded-xl overflow-hidden bg-surface shadow-md flex flex-col justify-between group">
+<div>
+<div class="h-64 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Portrait of an esteemed male literature professor with distinguished silver hair and tailored tweed blazer, standing in an ornate library corridor smiling with scholarly authority, natural lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWbm47VgV2-DpixsWQMO1f66ADzaNCVXM2COi5-V-dIk5a_RQEbyiH9KjKutD17oqkM5Z2xAmHoYGRwU-FfviUu9mT7ReKyW_mLTVwSxing3twB8_kKoZRNIPr880Qe47DrmfBwgZrnnWSWSZnHnLwuXumC1CUgui0to8xlp7VukG3Yn2YspfmiSNkmqdwFKow7Ca-EvEcpfYG0m2v2KDfd93aUT2XEpqY1Va42N0c4bU8jdyL8ZU_sw"/>
+<span class="absolute bottom-2 left-2 px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">Ph.D. Oxford</span>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Dr. Alistair Vance</h3>
+<p class="font-label-sm text-label-sm text-secondary font-bold uppercase">Dean of Faculty &amp; Chair of Humanities</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+                “True literacy is the defense of empathy. When students encounter the moral crises of antiquity, they sharpen their own internal compass.”
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">18 Years at St. Jude • 4 Scholarly Monographs</span>
+</div>
+</div>
+<!-- Faculty 2 -->
+<div class="rounded-xl overflow-hidden bg-surface shadow-md flex flex-col justify-between group">
+<div>
+<div class="h-64 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Portrait of an accomplished female science director in modern academic attire standing beside a molecular model in a clean high-tech research laboratory, warm confident smile, studio quality lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAklxQXdLgzP57y7uZg5C0u-bHRV_1nhMbYdc59Y9Nkzf0gvsSD0eEDUqyvTIKqg7lkruhvVPcZLHyn7U8T85XeC7FpB0YT3vn8oY_xBo6Zj0Dbb4q0CLiwJChuxenwkM7nAHZpvhYYypZRIrzmxJ0PR-ipuWQ2lE3FBEe3yIAee06XD-F5UCvEMd3AxDvIQeZW7G0TxaubLdUUmaeOxcXAT1lCvtEICdWvc96rA15NNOrIiXeJofXeA"/>
+<span class="absolute bottom-2 left-2 px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">Ph.D. MIT</span>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Dr. Elena Rostova</h3>
+<p class="font-label-sm text-label-sm text-secondary font-bold uppercase">Chair of STEM &amp; Computational Physics</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+                “Science is not a body of stagnant answers, but an unrelenting protocol of questioning. We teach teenagers to formulate questions that machines cannot.”
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Former CERN Researcher • NSF Awardee</span>
+</div>
+</div>
+<!-- Faculty 3 -->
+<div class="rounded-xl overflow-hidden bg-surface shadow-md flex flex-col justify-between group">
+<div>
+<div class="h-64 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Portrait of a female world language professor wearing an elegant navy cardigan, seated in a sunlit academic courtyard holding Spanish and French literary texts, looking directly at the camera with warmth and intellectual clarity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjD2zsoOMgH94lYgLtefIO8upiQZ-qzS27DPJVUuHfZXp-afGU5nrPIJztsoPIbwnGPycw2FDsnlfF0XVxf1RcNfAAytRfcYVQmDBXYm9dORIPE9nMYrGAQzdwi3VgvFhqDXAKYgcIlBk1gq4BXhYUqMRVe5FH1X_zunaaZEdktgua3QNOvyRnQvnScXT8s3r2oLlTJDI2XxdXD53VrzNO1qTpCU9Wch-aRNky0FfGK295ySOXCc5jKA"/>
+<span class="absolute bottom-2 left-2 px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">M.Ed. Sorbonne</span>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Mme. Claire Dubois</h3>
+<p class="font-label-sm text-label-sm text-secondary font-bold uppercase">Director of World Languages &amp; Global Study</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+                “To speak a second or third language is to possess a second soul. We build bridges across civilizations through linguistic precision.”
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Chevalier dans l'Ordre des Palmes Académiques</span>
+</div>
+</div>
+<!-- Faculty 4 -->
+<div class="rounded-xl overflow-hidden bg-surface shadow-md flex flex-col justify-between group">
+<div>
+<div class="h-64 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Portrait of an esteemed male fine arts conductor with glasses in an elegant dark suit standing in front of a symphony music stand and grand piano inside a wooden concert hall, refined artistic expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3nyc5D38aFcse7Et_m_nT8D-hGyU5eXf0NStg_3y3U_jMNFAcE2zqsAybda60BG2yeISRIdogRbBZmTHLwENIxxc2UwMlJtrrMJuWQ9Ye-FnITx9A06TxGqkAw8W90z0mbIu-mvOjDh3TKUoBkduFV7GXae0_DvE1sUdBYUh-SaxlG0a_p8R7htpkcb03sT6iCz1pYW2_Maa_xd1FJpkX8ZzFlw7FyrdbD_bgqgAqimk1Q6KZHxj6Iw"/>
+<span class="absolute bottom-2 left-2 px-space-xs py-0.5 rounded font-label-sm text-label-sm bg-primary text-on-primary">M.M. Juilliard</span>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Marcus Thornton</h3>
+<p class="font-label-sm text-label-sm text-secondary font-bold uppercase">Chair of Fine &amp; Performing Arts</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+                “Mastery requires discipline before revelation. When our ensembles breathe together, they understand that collective excellence supersedes ego.”
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Former Boston Symphony Guest Conductor</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Academic Support & Student Success -->
+<section class="w-full py-space-xl bg-surface-container px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto space-y-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Individualized Flourishing</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Academic Support &amp; Scholastic Honors</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Rigor is paired with intentional scaffolding. No scholar walks alone at St. Jude Academy. Our comprehensive Learning Resource Center (LRC) ensures that students of every profile optimize their executive function, conceptual mastery, and intellectual confidence.
+          </p>
+<!-- SVG Visual Donut of Student Support Allocation -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-md">
+<svg class="w-20 h-20 shrink-0 -rotate-90" viewbox="0 0 36 36">
+<!-- Background circle -->
+<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<!-- Math/Writing labs (55%) -->
+<path class="text-primary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="55, 100" stroke-width="3.5"></path>
+<!-- Peer Tutoring (30%) -->
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="30, 100" stroke-dashoffset="-55" stroke-width="3.5"></path>
+<!-- Specialized (15%) -->
+<path class="text-secondary-fixed-dim" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="15, 100" stroke-dashoffset="-85" stroke-width="3.5"></path>
+</svg>
+<div class="space-y-1">
+<span class="font-title-md text-title-md text-primary block leading-none">Holistic Support Matrix</span>
+<div class="font-label-sm text-label-sm flex flex-wrap gap-x-3 gap-y-1 text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary"></span>Writing/Math Labs</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary"></span>Peer Tutoring</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span>Executive Coaching</span>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Card 1: Writing & Rhetoric Center -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">edit_note</span>
+<h3 class="font-title-md text-title-md text-primary">The Writing &amp; Rhetoric Center</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              One-on-one appointments for essay structuring, thesis refinement, argumentative logic, and college personal statements with trained peer writing fellows.
+            </p>
+</div>
+<!-- Card 2: Quantitative Reasoning Lab -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">calculate</span>
+<h3 class="font-title-md text-title-md text-primary">Quantitative Reasoning Lab</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Walk-in calculus, algebra, and statistics coaching open 5 days a week after classes, staffed by mathematics faculty and Mu Alpha Theta tutors.
+            </p>
+</div>
+<!-- Card 3: Peer Mentorship & NHS -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">stars</span>
+<h3 class="font-title-md text-title-md text-primary">National Honor Society Guild</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Top 10% academic scholars provide over 1,400 hours of peer coaching annually, reinforcing collaborative solidarity over isolated competition.
+            </p>
+</div>
+<!-- Card 4: Executive Function Coaching -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">schedule</span>
+<h3 class="font-title-md text-title-md text-primary">Cognitive &amp; Study Strategy</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Specialist instruction in spaced retrieval methods, long-range project planning, digital compartmentalization, and test anxiety mitigation.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 7: Call to Action & Course Prospectus Modal Trigger -->
+<section class="w-full py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-7xl mx-auto rounded-xl bg-primary text-on-primary p-space-xl shadow-xl relative overflow-hidden">
+<!-- Decorative background accent circle -->
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-secondary opacity-15 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 space-y-space-sm">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider font-bold">2025–2026 Academic Prospectus</span>
+<h2 class="font-headline-lg text-headline-lg text-on-primary">
+            Download the Complete Curriculum Guide &amp; Course Catalog
+          </h2>
+<p class="font-body-md text-body-md text-primary-fixed max-w-xl">
+            Access exhaustive course descriptions, graduation credit distributions, AP/IB diploma tracks, prerequisites, and our four-year collegiate advisory matrix.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="px-space-md py-space-xs rounded bg-secondary text-on-primary font-label-md text-label-md font-bold hover:bg-secondary-container hover:text-on-secondary-fixed transition-all shadow-md" download="" href="#">
+              Download PDF Catalog (3.4 MB)
+            </a>
+<a class="px-space-md py-space-xs rounded bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-tertiary transition-all" data-path="admissions" href="#">
+              Schedule Admissions Consultation
+            </a>
+</div>
+</div>
+<div class="lg:col-span-5 bg-surface-container-lowest text-on-surface p-space-md rounded-xl shadow-md space-y-space-xs">
+<span class="font-title-md text-title-md text-primary block font-semibold">Request Print Prospectus</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">We will mail a hardcover academic viewbook directly to your household.</p>
+<form class="space-y-space-xs pt-space-xs" onsubmit="event.preventDefault(); alert('Thank you. A print prospectus will be dispatched within 48 business hours.');">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant block mb-1" for="parent-name">Parent / Guardian Name</label>
+<input class="w-full px-space-sm py-1.5 rounded bg-surface text-body-sm font-body-sm text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="parent-name" placeholder="e.g. Dr. Arthur Pendelton" required="" type="text"/>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant block mb-1" for="parent-email">Email Address</label>
+<input class="w-full px-space-sm py-1.5 rounded bg-surface text-body-sm font-body-sm text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="parent-email" placeholder="name@example.com" required="" type="email"/>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant block mb-1" for="student-grade">Target Entry Grade</label>
+<select class="w-full px-space-sm py-1.5 rounded bg-surface text-body-sm font-body-sm text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="student-grade">
+<option>Lower School (Kindergarten - Grade 5)</option>
+<option>Middle School (Grades 6 - 8)</option>
+<option selected="">Upper School (Grades 9 - 12)</option>
+</select>
+</div>
+<button class="w-full mt-space-xs px-space-md py-space-xs rounded bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all" type="submit">
+              Request Mailed Catalog
+            </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic Script for Division and Calendar Switching -->
+<script>
+    function switchDivision(divisionKey) {
+      // Hide all panels
+      document.querySelectorAll('.division-panel').forEach(function(el) {
+        el.classList.add('hidden');
+      });
+      // Deselect all tab styles
+      const tabs = ['elementary', 'middle', 'high'];
+      tabs.forEach(function(t) {
+        const btn = document.getElementById('tab-' + t);
+        if (btn) {
+          btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.add('text-on-surface-variant');
+        }
+      });
+
+      // Show selected panel
+      const targetPanel = document.getElementById('panel-' + divisionKey);
+      if (targetPanel) {
+        targetPanel.classList.remove('hidden');
+      }
+
+      // Highlight active tab
+      const activeTab = document.getElementById('tab-' + divisionKey);
+      if (activeTab) {
+        activeTab.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+        activeTab.classList.remove('text-on-surface-variant');
+      }
+    }
+
+    const termData = {
+      fall: {
+        title: "Fall Semester Academic Dates",
+        subtitle: "August 28, 2025 – December 19, 2025",
+        badge: "Fall 2025",
+        events: [
+          { month: "AUG", day: "28", title: "Faculty Convocation & Boarding Move-In", desc: "Mandatory residential orientation and adviser meet-and-greets.", tag: "All School", tagType: "surface" },
+          { month: "SEP", day: "02", title: "First Day of Classes (K–12)", desc: "Formal academic dress code required. Morning chapel gathering at 8:30 AM.", tag: "Instructional", tagType: "surface" },
+          { month: "OCT", day: "17", title: "Parent-Teacher Consultation Days", desc: "No classes. Individualized 20-minute portfolio reviews with academic chairs.", tag: "Conferences", tagType: "secondary" },
+          { month: "NOV", day: "24", title: "Thanksgiving Scholastic Recess", desc: "Campus residences close Nov 24 at 18:00; reopen Nov 30 at 12:00.", tag: "Recess", tagType: "surface" },
+          { month: "DEC", day: "15", title: "Upper School Fall Comprehensive Exams", desc: "Rigorous proctored finals across STEM and Humanities disciplines through Dec 19.", tag: "Exams", tagType: "error" }
+        ]
+      },
+      spring: {
+        title: "Spring Term Academic Dates",
+        subtitle: "January 06, 2026 – May 29, 2026",
+        badge: "Spring 2026",
+        events: [
+          { month: "JAN", day: "06", title: "Spring Term Classes Resume", desc: "All school divisions resume standard instructional schedules.", tag: "Instructional", tagType: "surface" },
+          { month: "FEB", day: "13", title: "Mid-Winter Colloquium & Socratic Debates", desc: "Cross-grade humanities symposia open to families and alumni.", tag: "Colloquium", tagType: "secondary" },
+          { month: "MAR", day: "16", title: "Spring Break & Global Immersion Departures", desc: "Language delegations depart for France, Spain, and Taiwan.", tag: "Travel", tagType: "surface" },
+          { month: "MAY", day: "04", title: "AP & International Baccalaureate Exams", desc: "Two-week testing window administered in the Bancroft Memorial Hall.", tag: "Exams", tagType: "error" },
+          { month: "MAY", day: "29", title: "131st Baccalaureate & Commencement", desc: "Upper School graduation exercises and academic prize conferrals.", tag: "Ceremony", tagType: "secondary" }
+        ]
+      },
+      summer: {
+        title: "Summer Academies & Research Residencies",
+        subtitle: "June 15, 2026 – July 24, 2026",
+        badge: "Summer 2026",
+        events: [
+          { month: "JUN", day: "15", title: "STEM Wet-Lab & Robotics Intensive Begins", desc: "Four-week university-credit program in computational molecular modeling.", tag: "STEM Lab", tagType: "surface" },
+          { month: "JUN", day: "22", title: "Writers' Workshop & Harkness Seminar", desc: "Immersive creative non-fiction and rhetoric masterclasses.", tag: "Humanities", tagType: "surface" },
+          { month: "JUL", day: "10", title: "Summer Capstone Research Defense", desc: "Scholars defend preliminary independent research theses to visiting faculty.", tag: "Capstone", tagType: "secondary" },
+          { month: "JUL", day: "24", title: "Summer Academic Showcase & Gala", desc: "Public laboratory exhibition and symposium concluding the summer terms.", tag: "Showcase", tagType: "secondary" }
+        ]
+      }
+    };
+
+    function selectTerm(termKey) {
+      // Update Tab Visuals
+      const termKeys = ['fall', 'spring', 'summer'];
+      termKeys.forEach(function(key) {
+        const navEl = document.getElementById('term-nav-' + key);
+        if (navEl) {
+          if (key === termKey) {
+            navEl.classList.remove('bg-surface', 'text-on-surface');
+            navEl.classList.add('bg-primary', 'text-on-primary', 'shadow-md');
+            const h4 = navEl.querySelector('span:first-child');
+            if (h4) {
+              h4.classList.remove('text-primary');
+              h4.classList.add('text-on-primary');
+            }
+          } else {
+            navEl.classList.remove('bg-primary', 'text-on-primary', 'shadow-md');
+            navEl.classList.add('bg-surface', 'text-on-surface');
+            const h4 = navEl.querySelector('span:first-child');
+            if (h4) {
+              h4.classList.remove('text-on-primary');
+              h4.classList.add('text-primary');
+            }
+          }
+        }
+      });
+
+      // Update Calendar Table View
+      const data = termData[termKey];
+      if (!data) return;
+
+      document.getElementById('term-display-title').textContent = data.title;
+      document.getElementById('term-display-subtitle').textContent = data.subtitle;
+
+      const container = document.getElementById('term-events-container');
+      container.innerHTML = '';
+
+      data.events.forEach(function(ev) {
+        let tagClass = "bg-surface text-on-surface";
+        if (ev.tagType === 'secondary') tagClass = "bg-secondary-fixed text-on-secondary-fixed";
+        if (ev.tagType === 'error') tagClass = "bg-error-container text-on-error-container";
+
+        const row = document.createElement('div');
+        row.className = "p-space-sm rounded-lg bg-surface-container-low flex flex-col sm:flex-row sm:items-center justify-between gap-2";
+        row.innerHTML = `
+          <div class="flex items-start gap-space-sm">
+            <div class="w-12 h-12 rounded bg-primary text-on-primary flex flex-col items-center justify-center font-bold shrink-0">
+              <span class="font-label-sm text-label-sm uppercase text-secondary-fixed">${ev.month}</span>
+              <span class="text-title-md">${ev.day}</span>
+            </div>
+            <div>
+              <h4 class="font-title-md text-title-md text-primary">${ev.title}</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">${ev.desc}</p>
+            </div>
+          </div>
+          <span class="px-space-xs py-0.5 rounded font-label-sm text-label-sm font-semibold self-start sm:self-auto ${tagClass}">${ev.tag}</span>
+        `;
+        container.appendChild(row);
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary mt-space-xl pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-md"><div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-primary text-[24px]">school</span></div><div><h3 class="font-headline-sm text-headline-sm text-on-primary leading-snug">St. Jude Academy</h3><p class="font-label-sm text-label-sm text-secondary-fixed-dim uppercase tracking-wider">Founded 1894 • Independent K–12</p></div></div><p class="font-body-sm text-body-sm text-primary-fixed max-w-sm">Dedicated to cultivating intellectual rigor, moral purpose, and collaborative leadership within an inspiring scholarly community grounded in classical academic heritage.</p><div class="flex items-center gap-space-xs"><span class="px-space-sm py-space-xs rounded font-label-sm text-label-sm bg-primary-container text-primary-fixed-dim border border-primary-fixed-variant">NAIS Accredited</span><span class="px-space-sm py-space-xs rounded font-label-sm text-label-sm bg-primary-container text-primary-fixed-dim border border-primary-fixed-variant">IB World School</span></div></div><div class="space-y-space-sm"><h4 class="font-title-md text-title-md text-secondary-fixed-dim">Quick Links</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-primary-fixed"><li class="hover:text-on-primary transition-colors"><a data-path="academic-calendar" href="#">Academic Calendar</a></li><li class="hover:text-on-primary transition-colors"><a data-path="events-and-news" href="#">News &amp; Press</a></li><li class="hover:text-on-primary transition-colors"><a data-path="library" href="#">Bancroft Memorial Library</a></li><li class="hover:text-on-primary transition-colors"><a data-path="careers" href="#">Careers &amp; Faculty Openings</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-title-md text-title-md text-secondary-fixed-dim">Admissions</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-primary-fixed"><li class="hover:text-on-primary transition-colors"><a data-path="admissions" href="#">Admissions Process</a></li><li class="hover:text-on-primary transition-colors"><a data-path="tuition-and-aid" href="#">Tuition &amp; Financial Aid</a></li><li class="hover:text-on-primary transition-colors"><a data-path="campus-tours" href="#">Book a Campus Tour</a></li><li class="hover:text-on-primary transition-colors"><a data-path="admissions-faqs" href="#">Admissions FAQs</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-title-md text-title-md text-secondary-fixed-dim">Contact &amp; Location</h4><div class="space-y-space-xs font-body-sm text-body-sm text-primary-fixed"><p class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim mt-0.5">location_on</span><span>450 Academy Way<br/>Westover Hills, MA 02481</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">call</span><span>+1 (555) 234-5678</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">emergency</span><span class="text-secondary-fixed-dim font-semibold">Hotline: +1 (555) 234-9999</span></p></div></div></div><div class="pt-space-lg border-t border-primary-container flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-on-primary-container"><p>© 2025 St. Jude Academy. All rights reserved. Registered 501(c)(3) institution.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-primary transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-on-primary transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-on-primary transition-colors" data-path="accessibility" href="#">Accessibility</a><a class="hover:text-on-primary transition-colors" data-path="nondiscrimination" href="#">Non-Discrimination Policy</a></div></div></div></footer></body></html>

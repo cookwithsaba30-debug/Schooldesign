@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-fixed-dim": "#fdba45", "on-secondary": "#ffffff", "surface-container": "#e6eeff", "tertiary-fixed-dim": "#adc7f7", "on-secondary-fixed": "#281900", "secondary-fixed": "#ffdeae", "error-container": "#ffdad6", "on-error-container": "#93000a", "secondary": "#7f5700", "on-primary-fixed": "#001b3b", "tertiary": "#001430", "on-error": "#ffffff", "on-primary": "#ffffff", "on-tertiary-container": "#7791bd", "surface-container-high": "#dce9ff", "on-background": "#0d1c2e", "surface-dim": "#ccdbf3", "on-secondary-container": "#6f4b00", "inverse-surface": "#233144", "on-tertiary-fixed": "#001b3c", "outline-variant": "#c4c6cf", "on-surface": "#0d1c2e", "surface": "#f8f9ff", "outline": "#74777f", "inverse-on-surface": "#eaf1ff", "primary-container": "#0f294a", "on-tertiary-fixed-variant": "#2d476f", "on-surface-variant": "#44474e", "surface-tint": "#485f83", "error": "#ba1a1a", "inverse-primary": "#b0c8f1", "tertiary-container": "#09294f", "secondary-container": "#fdba45", "surface-container-highest": "#d5e3fc", "primary": "#00142f", "on-primary-fixed-variant": "#30476a", "primary-fixed": "#d5e3ff", "surface-variant": "#d5e3fc", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#604100", "primary-fixed-dim": "#b0c8f1", "surface-container-low": "#eff4ff", "tertiary-fixed": "#d6e3ff", "surface-bright": "#f8f9ff", "on-primary-container": "#7a91b7", "background": "#f8f9ff", "on-tertiary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "space-sm": "0.5rem", "margin": "3rem", "space-xl": "2.5rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "margin-tablet": "2rem", "space-lg": "1.5rem", "gutter": "1.5rem", "gutter-mobile": "1rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Merriweather"], "display-hero-mobile": ["Merriweather"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "headline-lg": ["Merriweather"], "display-hero": ["Merriweather"], "headline-sm": ["Merriweather"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-md": ["Merriweather"] }, "fontSize": { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg-mobile": ["28px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "title-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["40px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "display-hero": ["56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "38px", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,20,47,0.06)]"><div class="bg-primary text-on-primary py-space-xs px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-1 font-label-sm text-label-sm"><div class="flex items-center gap-space-lg flex-wrap"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-secondary-fixed-dim">call</span>+1 (555) 234-5678</span><span class="hidden sm:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-secondary-fixed-dim">mail</span>info@stjudeacademy.edu</span><span class="hidden md:flex items-center gap-space-xs text-primary-fixed"><span class="material-symbols-outlined text-[14px] text-secondary-fixed-dim">schedule</span>Mon-Fri 8:00 AM - 4:30 PM</span></div><div class="flex items-center gap-space-md ml-auto"><a class="hover:text-secondary-fixed-dim transition-colors" data-path="parent-portal" href="#">Parent Portal</a><span class="text-primary-container font-light">|</span><a class="hover:text-secondary-fixed-dim transition-colors" data-path="staff-portal" href="#">Staff Login</a><span class="text-primary-container font-light">|</span><a class="hover:text-secondary-fixed-dim transition-colors" data-path="academic-calendar" href="#">Academic Calendar</a></div></div></div><div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="School Crest Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIBGJ18M08q-2Zx9nFkwGExT7dopk4JOANZVd__dFruB0qIr__0ZXkdBMbChP-vXEPhfmRvWmG0fYBN1Yn2oBqperj4PR2iT8B4VOn2ksqGa-FpxxzARzo8KRtYO5vbU3mOZxJI9vq3TKY3sZiWnnQYItaB6cWvYZiMRTQbSDeUqik7bJkfhRNih2CBFDeu-e9-da3-r8Wx2lZczn4OgkzS8XX7ZtdI-lEvyuUDfySvROrpY11c2sf8Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight">St. Jude Academy</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Excellence, Integrity, Leadership</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg"><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="home" href="#">Home</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="about-us" href="#">About Us</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="academics" href="#">Academics</a><a aria-current="page" class="px-space-sm py-space-xs transition-all bg-surface-container-high text-on-surface font-semibold rounded-lg" data-path="admissions" href="#">Admissions</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="facilities-and-campus" href="#">Facilities &amp; Campus</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="student-life" href="#">Student Life</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="events-and-news" href="#">Events &amp; News</a><a class="px-space-sm py-space-xs rounded font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact-us" href="#">Contact Us</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Search academy records" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded font-label-md text-label-md bg-secondary text-on-primary font-bold hover:bg-primary transition-all shadow-sm" data-path="admissions-process" href="#">Apply Now</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Key Dates Urgent Ribbon -->
+<aside aria-label="Admissions Deadlines Notice" class="w-full bg-secondary text-on-secondary px-margin-mobile md:px-margin-tablet lg:px-margin py-space-sm shadow-sm">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-sm font-label-md text-label-md">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-on-secondary/20 text-on-secondary">
+<span class="material-symbols-outlined text-[16px]">priority_high</span>
+</span>
+<span class="font-bold">2025–2026 Priority Round Closing Soon:</span>
+<span class="opacity-95">Early Decision applications close November 15, 2024 at 11:59 PM EST.</span>
+</div>
+<div class="flex items-center gap-space-md">
+<a class="underline underline-offset-4 hover:text-secondary-fixed transition-colors font-semibold" href="#dates-milestones">View All Deadlines</a>
+<a class="bg-primary text-on-primary px-space-sm py-1 rounded text-label-sm font-bold uppercase tracking-wider hover:bg-primary-container transition-colors" href="#inquiry-form">Start Inquiry</a>
+</div>
+</div>
+</aside>
+<!-- Editorial Admissions Overview & Dean's Welcome -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin pt-space-xl pb-16 bg-surface">
+<div class="max-w-7xl mx-auto">
+<!-- Breadcrumbs & Quick Anchor Strip -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md mb-12">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<a class="hover:text-primary transition-colors" data-path="home" href="#">Home</a>
+<span class="text-outline-variant">/</span>
+<span class="text-primary font-semibold">Admissions &amp; Enrollment</span>
+<span class="text-outline-variant">/</span>
+<span class="text-secondary font-bold">Academic Year 2025–2026</span>
+</nav>
+<nav aria-label="Jump to admissions section" class="flex flex-wrap items-center gap-2 font-label-sm text-label-sm">
+<span class="text-on-surface-variant font-medium mr-1">Jump to:</span>
+<a class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors" href="#journey-steps">Admissions Journey</a>
+<a class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors" href="#eligibility-matrix">Eligibility</a>
+<a class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors" href="#required-documents">Documents</a>
+<a class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors" href="#tuition-assistance">Tuition &amp; Aid</a>
+<a class="px-3 py-1 rounded bg-surface-container hover:bg-surface-container-high text-primary font-semibold transition-colors" href="#faq-section">FAQs</a>
+<a class="px-3 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-bold hover:bg-secondary-fixed-dim transition-colors" href="#inquiry-form">Inquiry Form</a>
+</nav>
+</div>
+<!-- Editorial Intro Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-container text-secondary font-label-sm text-label-sm uppercase tracking-widest font-bold">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+            St. Jude Academy Enrollment Portal
+          </div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+            Join Our Community of Learners — Admissions 2025–2026
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Selecting an academic home is one of the most consequential investments a family makes. At St. Jude Academy, we invite intellectually curious, empathetic, and purposeful students in Kindergarten through Grade 12 into an environment shaped by collegiate heritage and rigorous classical inquiry.
+          </p>
+<!-- Key Stats Strip -->
+<div class="grid grid-cols-3 gap-4 pt-4">
+<div class="bg-surface-container-lowest p-5 rounded-lg shadow-sm">
+<span class="font-headline-md text-headline-md text-secondary block font-bold">8 : 1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Student-to-Faculty Ratio</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg shadow-sm">
+<span class="font-headline-md text-headline-md text-primary block font-bold">32%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Students Receiving Aid</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-lg shadow-sm">
+<span class="font-headline-md text-headline-md text-secondary block font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Four-Year College Placement</span>
+</div>
+</div>
+</div>
+<!-- Dean's Welcome Letter Card -->
+<div class="lg:col-span-5 bg-surface-container-low p-8 rounded-xl shadow-sm relative overflow-hidden">
+<div class="flex items-center gap-4 mb-6">
+<img class="w-20 h-20 rounded-lg object-cover shadow-sm" data-alt="Portrait of Dr. Evelyn Vance, Dean of Admissions at St. Jude Academy, wearing an elegant navy scholarly blazer in front of mahogany oak library bookshelves, warm diffuse sunlight, stately academic portrait photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyyAk5ttA7ALCyirKb2A2ovz7Aq44Sx-O9fTxUcubOlL17Uq22UoGbyjevL1hCFMgVYUpoAYgbj5Eq3Bn2HeTr6hKZ5K0fw5ZJjIwEwHDwgJHLQi_AWmG4Q32iIm-xCF144G5XAT1ed1nmRHJf3lTdlWEXuyLWBiX-41bjJAdwpRmyjh-nIEATL37PjgYGk4OE20jXRDKgzh9V6ZDKgzBid25NdaNtMwZ9_9MQ34617ydBOSApNHS8QA"/>
+<div>
+<h2 class="font-title-lg text-title-lg text-primary">Dr. Evelyn Vance</h2>
+<p class="font-label-md text-label-md text-secondary font-semibold">Dean of Admissions &amp; Financial Aid</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">B.A. Dartmouth • Ed.D. Harvard GSE</p>
+</div>
+</div>
+<blockquote class="font-headline-md text-body-md text-on-surface italic space-y-4 mb-6">
+            “We evaluate applicants not as a compilation of standardized percentiles, but as complete individuals—their curiosity, resilience, moral compass, and genuine hunger for rigorous discovery. Every seat at our seminar tables represents an irreplaceable perspective.”
+          </blockquote>
+<div class="flex items-center justify-between pt-4 bg-surface-container/60 p-4 rounded-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block">Direct Inquiries</span>
+<span class="font-label-md text-label-md font-semibold text-primary">admissions@stjudeacademy.edu</span>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold hover:text-primary transition-colors" href="#inquiry-form">
+              Schedule Tour <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: 5-Step Admissions Journey (Visual Stepper) -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface-container-low" id="journey-steps">
+<div class="max-w-7xl mx-auto">
+<div class="max-w-3xl mb-16">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-widest block mb-2">Roadmap to Matriculation</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Your 5-Step Admissions Journey</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Our structured, transparent evaluation pathway ensures every prospective scholar and guardian is guided attentively from first inquiry to orientation morning.
+        </p>
+</div>
+<!-- Horizontal Desktop / Vertical Mobile Stepper -->
+<div class="grid grid-cols-1 md:grid-cols-5 gap-6 relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">01</span>
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Inquiry &amp; Campus Tour</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Submit your preliminary expression of interest and reserve an intimate parent-led or student-shadow walking tour of Bancroft Hall and the Science Wing.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block">Recommended Timeframe</span>
+<span class="font-label-sm text-label-sm text-on-surface">September – November</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">02</span>
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">assignment</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Formal Application</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Complete the verified candidate profile, parent statement of educational values, and grade-appropriate student self-reflection questionnaire.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block">Recommended Timeframe</span>
+<span class="font-label-sm text-label-sm text-on-surface">October – January 15</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">03</span>
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Assessment &amp; Interview</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Age-graded evaluations (readiness screener for K-2; analytical &amp; quantitative assessments for 3-12) paired with a 30-minute faculty dialogue.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block">Recommended Timeframe</span>
+<span class="font-label-sm text-label-sm text-on-surface">December – February</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">04</span>
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">folder_shared</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Records &amp; References</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Submit 2 full consecutive years of certified transcripts, standardized test history, and confidential evaluations from current Math and English teachers.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block">Recommended Timeframe</span>
+<span class="font-label-sm text-label-sm text-on-surface">Due by February 1</span>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">05</span>
+<span class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Notification &amp; Matriculation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Admissions Committee verdicts released via family portal. Admitted applicants confirm seat via enrollment agreement and tuition deposit.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block">Recommended Timeframe</span>
+<span class="font-label-sm text-label-sm text-on-surface">March 10 – April 10</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Eligibility & Age Criteria Table -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface" id="eligibility-matrix">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-widest block mb-2">Admissions Benchmarks</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Eligibility &amp; Age Criteria</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-2xl">
+            Age thresholds are benchmarked strictly as of September 1, 2025. Exceptions require comprehensive pedagogical review by division heads.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-block w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Class sizes strictly capped at 16 scholars</span>
+</div>
+</div>
+<!-- Eligibility Table -->
+<div class="overflow-x-auto rounded-xl shadow-sm bg-surface-container-lowest">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider">
+<tr>
+<th class="py-4 px-6 font-bold" scope="col">Division / Grade</th>
+<th class="py-4 px-6 font-bold" scope="col">Age Benchmark (by Sept 1)</th>
+<th class="py-4 px-6 font-bold" scope="col">Prerequisite Coursework / History</th>
+<th class="py-4 px-6 font-bold" scope="col">Entrance Testing &amp; Screening</th>
+<th class="py-4 px-6 font-bold" scope="col">Interview Requirement</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-title-md text-primary">
+                Kindergarten
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Lower Division</span>
+</td>
+<td class="py-4 px-6 text-on-surface font-semibold">5 Years Old</td>
+<td class="py-4 px-6 text-on-surface-variant">Early childhood or Pre-K development report</td>
+<td class="py-4 px-6 text-on-surface-variant">St. Jude Gesell Developmental &amp; Social Readiness Observation</td>
+<td class="py-4 px-6"><span class="px-2 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-semibold">Parent &amp; Child Play Visit</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-title-md text-primary">
+                Grades 1 – 4
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Primary Scholars</span>
+</td>
+<td class="py-4 px-6 text-on-surface font-semibold">6 – 9 Years Old</td>
+<td class="py-4 px-6 text-on-surface-variant">Prior academic report cards demonstrating foundational phonics and math fluency</td>
+<td class="py-4 px-6 text-on-surface-variant">On-campus Reading Comprehension &amp; Computational Screener</td>
+<td class="py-4 px-6"><span class="px-2 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-semibold">Student Half-Day Shadow</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-title-md text-primary">
+                Grades 5 – 8
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Middle School</span>
+</td>
+<td class="py-4 px-6 text-on-surface font-semibold">10 – 13 Years Old</td>
+<td class="py-4 px-6 text-on-surface-variant">2 years of English Language Arts, General Science, and Pre-Algebra track</td>
+<td class="py-4 px-6 text-on-surface-variant">ISEE (Independent School Entrance Exam) or SSAT Middle Level</td>
+<td class="py-4 px-6"><span class="px-2 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-semibold">30-min Faculty Interview</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-title-md text-primary">
+                Grades 9 – 10
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Upper Division Entry</span>
+</td>
+<td class="py-4 px-6 text-on-surface font-semibold">14 – 15 Years Old</td>
+<td class="py-4 px-6 text-on-surface-variant">Algebra I credit, 1 foreign language year, laboratory biology/physical science</td>
+<td class="py-4 px-6 text-on-surface-variant">SSAT Upper Level / ISEE Upper Level or PSAT 8/9 report</td>
+<td class="py-4 px-6"><span class="px-2 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-semibold">Committee Interview</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-title-md text-primary">
+                Grades 11 – 12
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Upper School Transfer</span>
+</td>
+<td class="py-4 px-6 text-on-surface font-semibold">16 – 17 Years Old</td>
+<td class="py-4 px-6 text-on-surface-variant">Minimum 3.3 unweighted GPA in college preparatory or honors coursework</td>
+<td class="py-4 px-6 text-on-surface-variant">PSAT, SAT, or ACT test scores, plus St. Jude Analytical Essay proctor</td>
+<td class="py-4 px-6"><span class="px-2 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-semibold">Dean &amp; Faculty Panel</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Section 4: Required Documents Checklist -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface-container-low" id="required-documents">
+<div class="max-w-7xl mx-auto">
+<div class="max-w-3xl mb-12">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-widest block mb-2">Application Portfolio</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Required Documents Checklist</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Candidates must submit verified digital scans via the parent portal. All files must be high-resolution PDF format with certified English translations if applicable.
+        </p>
+</div>
+<!-- Checklist Interactive Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="documents-checklist">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</span>
+<span class="px-2.5 py-1 rounded-full text-label-sm font-bold bg-secondary-fixed text-on-secondary-fixed">Mandatory</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Proof of Identity &amp; Age</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Official birth certificate, passport ID page, or naturalization documentation confirming legal guardianship and age verification.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-low p-3 rounded flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Format: PDF (Max 10MB)</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-secondary font-bold">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Verified
+            </span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+</span>
+<span class="px-2.5 py-1 rounded-full text-label-sm font-bold bg-secondary-fixed text-on-secondary-fixed">Mandatory</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Transcripts (Past 2 Years)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Official cumulative academic transcripts including term grades, attendance records, and any standardized diagnostic test percentiles.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-low p-3 rounded flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Official School Seal</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-primary font-bold">
+<span class="material-symbols-outlined text-[16px]">school</span> Direct Send
+            </span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">medical_services</span>
+</span>
+<span class="px-2.5 py-1 rounded-full text-label-sm font-bold bg-secondary-fixed text-on-secondary-fixed">Mandatory</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Immunization &amp; Health Records</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Commonwealth of Massachusetts Department of Public Health certificate of immunizations, physical exam within 12 months, and vision screening.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-low p-3 rounded flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Physician Signed</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-secondary font-bold">
+<span class="material-symbols-outlined text-[16px]">health_and_safety</span> Nurse Audit
+            </span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</span>
+<span class="px-2.5 py-1 rounded-full text-label-sm font-bold bg-secondary-fixed text-on-secondary-fixed">2 Letters</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Confidential Recommendations</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              One from current Math or Science instructor, one from current Humanities or English teacher, submitted directly via our encrypted online portal.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-low p-3 rounded flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Automated Email Links</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-primary font-bold">
+<span class="material-symbols-outlined text-[16px]">lock</span> Confidential
+            </span>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+</span>
+<span class="px-2.5 py-1 rounded-full text-label-sm font-bold bg-surface-container text-primary">Optional / Specialized</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Student Creative Portfolio</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Required for applicants to the Conservatory Arts Honors or STEM Innovation tracks. Up to 5 creative works, coding repos, or musical recordings.
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-low p-3 rounded flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Digital Slideshow / URL</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-secondary font-bold">
+<span class="material-symbols-outlined text-[16px]">star</span> Merit Review
+            </span>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-primary text-on-primary p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-primary-container text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">cloud_upload</span>
+</span>
+<span class="px-2.5 py-1 rounded-full text-label-sm font-bold bg-secondary text-on-secondary">Secure Portal</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-primary mb-2">Upload Records Today</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed mb-4">
+              Already have an active applicant reference number? Log directly into the St. Jude Admissions Vault to upload documents and track verification in real time.
+            </p>
+</div>
+<a class="inline-flex items-center justify-center gap-2 bg-secondary text-on-primary py-2.5 px-4 rounded font-label-md text-label-md font-bold hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-colors" data-path="parent-portal" href="#">
+            Access Candidate Portal <span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Tuition & Financial Assistance -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface" id="tuition-assistance">
+<div class="max-w-7xl mx-auto">
+<div class="max-w-3xl mb-12">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-widest block mb-2">Transparent Investment</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Tuition &amp; Financial Assistance</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          St. Jude Academy operates a comprehensive, inclusive fee model with no hidden laboratory fees or athletic assessments. Over $2.4M awarded annually in need-based aid.
+        </p>
+</div>
+<!-- Tuition Fee Table Breakdown -->
+<div class="overflow-x-auto rounded-xl shadow-sm bg-surface-container-lowest mb-12">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider">
+<tr>
+<th class="py-4 px-6 font-bold" scope="col">Academic Division</th>
+<th class="py-4 px-6 font-bold" scope="col">Base Tuition</th>
+<th class="py-4 px-6 font-bold" scope="col">Technology &amp; Labs</th>
+<th class="py-4 px-6 font-bold" scope="col">Dining &amp; Nutrition Plan</th>
+<th class="py-4 px-6 font-bold" scope="col">Total Annual Fee</th>
+<th class="py-4 px-6 font-bold" scope="col">Monthly Plan (10-Mo)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-5 px-6 font-title-md text-title-md text-primary">
+                Lower School
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Grades K – 4</span>
+</td>
+<td class="py-5 px-6 text-on-surface font-semibold">$22,400</td>
+<td class="py-5 px-6 text-on-surface-variant">$850 (1:1 iPad + STEM Lab)</td>
+<td class="py-5 px-6 text-on-surface-variant">$1,750 (Hot lunch &amp; snacks)</td>
+<td class="py-5 px-6 font-headline-sm text-headline-sm text-primary font-bold">$25,000</td>
+<td class="py-5 px-6 font-semibold text-secondary">$2,500 / mo</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-5 px-6 font-title-md text-title-md text-primary">
+                Middle School
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Grades 5 – 8</span>
+</td>
+<td class="py-5 px-6 text-on-surface font-semibold">$27,200</td>
+<td class="py-5 px-6 text-on-surface-variant">$1,100 (MacBook + Bio/Chem)</td>
+<td class="py-5 px-6 text-on-surface-variant">$1,950 (Full chef dining)</td>
+<td class="py-5 px-6 font-headline-sm text-headline-sm text-primary font-bold">$30,250</td>
+<td class="py-5 px-6 font-semibold text-secondary">$3,025 / mo</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-5 px-6 font-title-md text-title-md text-primary">
+                Upper School
+                <span class="block font-label-sm text-label-sm text-on-surface-variant font-normal">Grades 9 – 12</span>
+</td>
+<td class="py-5 px-6 text-on-surface font-semibold">$32,800</td>
+<td class="py-5 px-6 text-on-surface-variant">$1,450 (Advanced AP labs + Tech)</td>
+<td class="py-5 px-6 text-on-surface-variant">$2,150 (Comprehensive Bistro)</td>
+<td class="py-5 px-6 font-headline-sm text-headline-sm text-primary font-bold">$36,400</td>
+<td class="py-5 px-6 font-semibold text-secondary">$3,640 / mo</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Financial Aid & Discount Framework Bento -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">diversity_3</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Need-Based Grants</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Evaluated independently through SSS (School and Student Services). Awards range from 15% to 85% of total tuition based on holistic family income and assets.
+          </p>
+<span class="font-label-sm text-label-sm text-primary font-bold">App Deadline: Jan 15</span>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">workspace_premium</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Bancroft Merit Honors</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Merit scholarships of $5,000 to $12,000 awarded to the top 5% of incoming Grade 9 applicants demonstrating extraordinary academic, leadership, or civic achievement.
+          </p>
+<span class="font-label-sm text-label-sm text-primary font-bold">Automatic Consideration</span>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">family_restroom</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Sibling Enrollment Credit</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Families with two or more concurrently enrolled children receive a 10% reduction for the second scholar and 15% for third and subsequent siblings.
+          </p>
+<span class="font-label-sm text-label-sm text-primary font-bold">Applied Automatically</span>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[22px]">credit_card</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Flexible Payment Plans</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Choose from Single Annual Payment (with a 2% tuition discount), Semi-Annual (July/December), or 10-Month interest-free automated draft options.
+          </p>
+<span class="font-label-sm text-label-sm text-primary font-bold">Via FACTS Tuition Mgmt</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Important Dates & Deadlines -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface-container-low" id="dates-milestones">
+<div class="max-w-7xl mx-auto">
+<div class="max-w-3xl mb-12">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-widest block mb-2">Admissions Calendar</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Important Dates &amp; Deadlines</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Keep your application on track. Late submissions will be evaluated on a space-available rolling basis following March 15.
+        </p>
+</div>
+<!-- Milestone Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Milestone 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold uppercase">Round 1</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Priority</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Early Decision</h3>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold mb-3">Nov 15, 2024</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Binding decision for committed families. Notifications released Friday, December 13, 2024.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded text-center">
+<span class="font-label-sm text-label-sm text-primary font-bold">Notification: Dec 13</span>
+</div>
+</div>
+<!-- Milestone 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Main Cycle</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Primary</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Regular Decision</h3>
+<p class="font-headline-sm text-headline-sm text-primary font-bold mb-3">Jan 15, 2025</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Primary application and dossier deadline for all grades K through 12. Complete all tests prior.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded text-center">
+<span class="font-label-sm text-label-sm text-primary font-bold">Notification: Mar 10</span>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Financial Aid</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Grants</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Aid Submission</h3>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold mb-3">Feb 01, 2025</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              SSS platform financial filing deadline with prior-year W-2s and tax returns verified.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded text-center">
+<span class="font-label-sm text-label-sm text-primary font-bold">Aid Package: With Decision</span>
+</div>
+</div>
+<!-- Milestone 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold uppercase">New Families</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Welcome</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Orientation Day</h3>
+<p class="font-headline-sm text-headline-sm text-primary font-bold mb-3">Aug 28, 2025</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Full-day orientation, locker assignment, adviser meetings, and traditional convocation picnic.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded text-center">
+<span class="font-label-sm text-label-sm text-primary font-bold">First Day: Sept 02</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 7: Admissions FAQs (Accordion) -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface" id="faq-section">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-widest block mb-2">Clarity &amp; Counsel</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Frequently Asked Questions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            Everything you need to know about the daily cadence, support structures, and policies shaping life at St. Jude Academy.
+          </p>
+<div class="bg-surface-container-low p-6 rounded-xl shadow-sm">
+<h3 class="font-title-md text-title-md text-primary mb-2">Need Bespoke Advice?</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Our admissions team offers dedicated 15-minute Zoom consultations for prospective parents.
+            </p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary font-bold hover:text-primary transition-colors" href="#inquiry-form">
+              Request Counselor Call <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-8 space-y-4" id="faq-container">
+<!-- Accordion 1 -->
+<details class="group bg-surface-container-lowest p-6 rounded-xl shadow-sm open:bg-surface-container-low transition-colors" open="">
+<summary class="flex items-center justify-between cursor-pointer list-none">
+<span class="font-title-md text-title-md text-primary font-semibold">What are the typical class sizes and student-teacher ratios?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              In the Lower School (K–4), classes are strictly capped at 14 students with a lead faculty member and a dedicated associate teacher in every room. In Middle and Upper Divisions, seminars and laboratory sections maintain an average of 14 scholars (maximum ceiling of 16), ensuring that every student presents, defends coursework, and receives extensive written feedback weekly.
+            </div>
+</details>
+<!-- Accordion 2 -->
+<details class="group bg-surface-container-lowest p-6 rounded-xl shadow-sm open:bg-surface-container-low transition-colors">
+<summary class="flex items-center justify-between cursor-pointer list-none">
+<span class="font-title-md text-title-md text-primary font-semibold">Does St. Jude Academy accept mid-year transfer students?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Yes, rolling mid-year admissions are considered primarily for relocating families subject to seat availability in the desired grade level. Mid-year applicants follow the same comprehensive evaluation pathway, with expedited committee reviews convened within 10 school days of receipt of all transcripts and recommendations.
+            </div>
+</details>
+<!-- Accordion 3 -->
+<details class="group bg-surface-container-lowest p-6 rounded-xl shadow-sm open:bg-surface-container-low transition-colors">
+<summary class="flex items-center justify-between cursor-pointer list-none">
+<span class="font-title-md text-title-md text-primary font-semibold">What bus transportation routes and zones are provided?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              We operate six dedicated private chartered routes serving Westover Hills, Brookline, Newton, Wellesley, Cambridge, and South End Boston. Buses are equipped with GPS tracking accessible through our Parent Mobile Portal, Wi-Fi connectivity for academic study, and supervised by Academy transport monitors.
+            </div>
+</details>
+<!-- Accordion 4 -->
+<details class="group bg-surface-container-lowest p-6 rounded-xl shadow-sm open:bg-surface-container-low transition-colors">
+<summary class="flex items-center justify-between cursor-pointer list-none">
+<span class="font-title-md text-title-md text-primary font-semibold">What is the school uniform dress code policy?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Scholars wear our traditional navy and heather-gray uniform provided through our official outfitter, Dennis Uniform. The dress code instills a sense of shared community purpose and equality. Formal dress uniform (blazer, school tie, and crest insignia) is required on Wednesdays for All-School Convocation and guest lecture assemblies.
+            </div>
+</details>
+<!-- Accordion 5 -->
+<details class="group bg-surface-container-lowest p-6 rounded-xl shadow-sm open:bg-surface-container-low transition-colors">
+<summary class="flex items-center justify-between cursor-pointer list-none">
+<span class="font-title-md text-title-md text-primary font-semibold">What ESL and Academic Support services are available?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Our Academic Learning Center provides specialized linguistic enrichment for bilingual scholars and targeted executive functioning coaching. While we expect candidates to possess working English proficiency upon entry, dedicated ESL specialists provide targeted analytical writing and rhetoric seminars to ensure seamless scholarly integration.
+            </div>
+</details>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 8: Admissions Inquiry & Prospectus Form -->
+<section class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-20 bg-surface-container-low" id="inquiry-form">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Visual & Value Proposition Column -->
+<div class="lg:col-span-5 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[15px]">mail</span> Admissions Concierge
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+            Request an Informational Packet or Book a Shadow Day
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Take the first step toward enrolling your child at St. Jude Academy. Submit the inquiry form to receive our complete 2025–2026 Academic Prospectus, curriculum guides, and an invitation to schedule an individual campus walkthrough.
+          </p>
+<!-- Interactive Graphic/Photo -->
+<div class="relative rounded-xl overflow-hidden shadow-sm bg-surface-container">
+<img class="w-full h-64 object-cover" data-alt="Two diverse Middle School students in St. Jude Academy navy blazer uniforms engaged in a collaborative robotics and chemistry lab experiment with a mentor teacher smiling in a sunny, high-tech historic stone collegiate academy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4NauBuIVAGRkfogi0nTUyZOO0Dog9xPnxbWkYfJ2I92hUQx__tOFQn2BVf2QiKGTlvvul6_b-eyZeU-KBTU1IHHiXoR5geEec_J-0myQIaI5S2a-ETztBE74wpmZXHyrjU0l3rJlm4mhgdTVk_wAWFTnzeTxzijIr7t86ux0GlANqmjwDbd0ArTzRKyRMd0Pvl4IBeDFqIrCUAd6t1aiweYbfUznUkIvftk36JB4vJOSkUE3z6MeRnw"/>
+<div class="p-4 bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold block">Campus Visit Experience</span>
+<p class="font-body-sm text-body-sm text-on-surface">Experience daily academic vibrancy firsthand: sit in on a Harkness seminar and dine with faculty.</p>
+</div>
+</div>
+</div>
+<!-- The Interactive Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 md:p-10 rounded-xl shadow-md">
+<form class="space-y-6" id="prospectus-form" onsubmit="handleInquirySubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Parent Full Name -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="parent-name">
+                  Parent / Guardian Full Name <span class="text-secondary">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="parent-name" placeholder="e.g., Jonathan Mercer" required="" type="text"/>
+</div>
+<!-- Student Full Name -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="student-name">
+                  Student Full Name <span class="text-secondary">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="student-name" placeholder="e.g., Clara Mercer" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Grade Applying For -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="grade-select">
+                  Grade Applying For (Fall 2025) <span class="text-secondary">*</span>
+</label>
+<select class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="grade-select" required="">
+<option disabled="" selected="" value="">Select Grade Level</option>
+<option value="k">Kindergarten (Lower School)</option>
+<option value="1">Grade 1</option>
+<option value="2">Grade 2</option>
+<option value="3">Grade 3</option>
+<option value="4">Grade 4</option>
+<option value="5">Grade 5 (Middle School Entry)</option>
+<option value="6">Grade 6</option>
+<option value="7">Grade 7</option>
+<option value="8">Grade 8</option>
+<option value="9">Grade 9 (Upper School Entry)</option>
+<option value="10">Grade 10</option>
+<option value="11">Grade 11</option>
+<option value="12">Grade 12 Transfer</option>
+</select>
+</div>
+<!-- Preferred Tour Date -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="tour-date">
+                  Preferred Campus Tour Date
+                </label>
+<input class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="tour-date" type="date"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Email Address -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="email-address">
+                  Email Address <span class="text-secondary">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="email-address" placeholder="parent@domain.com" required="" type="email"/>
+</div>
+<!-- Phone Number -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="phone-number">
+                  Phone Number <span class="text-secondary">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="phone-number" placeholder="+1 (555) 000-0000" required="" type="tel"/>
+</div>
+</div>
+<!-- Program Interests Checkboxes -->
+<div>
+<span class="block font-label-md text-label-md text-primary font-semibold mb-2">Primary Academic &amp; Extracurricular Interests</span>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-3 font-body-sm text-body-sm text-on-surface">
+<label class="flex items-center gap-2 cursor-pointer bg-surface p-2.5 rounded">
+<input class="w-4 h-4 text-primary rounded border-0 focus:ring-0" name="interest" type="checkbox" value="stem"/>
+<span>STEM &amp; Robotics</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer bg-surface p-2.5 rounded">
+<input class="w-4 h-4 text-primary rounded border-0 focus:ring-0" name="interest" type="checkbox" value="arts"/>
+<span>Classical &amp; Fine Arts</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer bg-surface p-2.5 rounded">
+<input class="w-4 h-4 text-primary rounded border-0 focus:ring-0" name="interest" type="checkbox" value="athletics"/>
+<span>Varsity Athletics</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer bg-surface p-2.5 rounded">
+<input class="w-4 h-4 text-primary rounded border-0 focus:ring-0" name="interest" type="checkbox" value="rhetoric"/>
+<span>Debate &amp; Model UN</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer bg-surface p-2.5 rounded">
+<input class="w-4 h-4 text-primary rounded border-0 focus:ring-0" name="interest" type="checkbox" value="aid"/>
+<span>Need-Based Aid Info</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer bg-surface p-2.5 rounded">
+<input class="w-4 h-4 text-primary rounded border-0 focus:ring-0" name="interest" type="checkbox" value="shadow"/>
+<span>Student Shadow Day</span>
+</label>
+</div>
+</div>
+<!-- Additional Notes / Special Instructions -->
+<div>
+<label class="block font-label-md text-label-md text-primary font-semibold mb-2" for="inquiry-notes">
+                Questions or Special Circumstances (Optional)
+              </label>
+<textarea class="w-full px-4 py-3 rounded bg-surface border-0 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" id="inquiry-notes" placeholder="Tell us about your scholar's passions, current school environment, or specific accommodations..." rows="3"></textarea>
+</div>
+<!-- Submit CTA & Disclaimer -->
+<div class="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+                By submitting, you consent to receive communication from the St. Jude Academy Admissions Office. We respect your family's confidentiality.
+              </p>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3 rounded font-label-md text-label-md bg-secondary text-on-primary font-bold hover:bg-primary transition-all shadow-sm" id="submit-btn" type="submit">
+                Request Prospectus &amp; Tour
+                <span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+<!-- Success Alert Placeholder (Initially Hidden) -->
+<div class="hidden bg-surface-container p-4 rounded-lg items-center gap-3 text-primary" id="form-success-banner">
+<span class="material-symbols-outlined text-secondary text-[24px]">check_circle</span>
+<div>
+<span class="font-title-md text-title-md font-semibold block">Inquiry Successfully Registered</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Our Admissions Coordinator will dispatch your Digital Prospectus and contact you within 24 hours to confirm your visit.</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Client-side Interactive Logic -->
+<script>
+    function handleInquirySubmit(event) {
+      event.preventDefault();
+      const submitBtn = document.getElementById('submit-btn');
+      const successBanner = document.getElementById('form-success-banner');
+      
+      // Feedback UI state
+      submitBtn.disabled = true;
+      submitBtn.classList.add('opacity-75');
+      submitBtn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[18px]">sync</span> Dispatching...';
+
+      setTimeout(function() {
+        submitBtn.classList.add('hidden');
+        successBanner.classList.remove('hidden');
+        successBanner.classList.add('flex');
+      }, 700);
+    }
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary mt-space-xl pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-md"><div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-primary text-[24px]">school</span></div><div><h3 class="font-headline-sm text-headline-sm text-on-primary leading-snug">St. Jude Academy</h3><p class="font-label-sm text-label-sm text-secondary-fixed-dim uppercase tracking-wider">Founded 1894 • Independent K–12</p></div></div><p class="font-body-sm text-body-sm text-primary-fixed max-w-sm">Dedicated to cultivating intellectual rigor, moral purpose, and collaborative leadership within an inspiring scholarly community grounded in classical academic heritage.</p><div class="flex items-center gap-space-xs"><span class="px-space-sm py-space-xs rounded font-label-sm text-label-sm bg-primary-container text-primary-fixed-dim border border-primary-fixed-variant">NAIS Accredited</span><span class="px-space-sm py-space-xs rounded font-label-sm text-label-sm bg-primary-container text-primary-fixed-dim border border-primary-fixed-variant">IB World School</span></div></div><div class="space-y-space-sm"><h4 class="font-title-md text-title-md text-secondary-fixed-dim">Quick Links</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-primary-fixed"><li class="hover:text-on-primary transition-colors"><a data-path="academic-calendar" href="#">Academic Calendar</a></li><li class="hover:text-on-primary transition-colors"><a data-path="events-and-news" href="#">News &amp; Press</a></li><li class="hover:text-on-primary transition-colors"><a data-path="library" href="#">Bancroft Memorial Library</a></li><li class="hover:text-on-primary transition-colors"><a data-path="careers" href="#">Careers &amp; Faculty Openings</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-title-md text-title-md text-secondary-fixed-dim">Admissions</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-primary-fixed"><li class="hover:text-on-primary transition-colors"><a data-path="admissions" href="#">Admissions Process</a></li><li class="hover:text-on-primary transition-colors"><a data-path="tuition-and-aid" href="#">Tuition &amp; Financial Aid</a></li><li class="hover:text-on-primary transition-colors"><a data-path="campus-tours" href="#">Book a Campus Tour</a></li><li class="hover:text-on-primary transition-colors"><a data-path="admissions-faqs" href="#">Admissions FAQs</a></li></ul></div><div class="space-y-space-sm"><h4 class="font-title-md text-title-md text-secondary-fixed-dim">Contact &amp; Location</h4><div class="space-y-space-xs font-body-sm text-body-sm text-primary-fixed"><p class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim mt-0.5">location_on</span><span>450 Academy Way<br/>Westover Hills, MA 02481</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">call</span><span>+1 (555) 234-5678</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">emergency</span><span class="text-secondary-fixed-dim font-semibold">Hotline: +1 (555) 234-9999</span></p></div></div></div><div class="pt-space-lg border-t border-primary-container flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-on-primary-container"><p>© 2025 St. Jude Academy. All rights reserved. Registered 501(c)(3) institution.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-primary transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-on-primary transition-colors" data-path="terms-of-use" href="#">Terms of Use</a><a class="hover:text-on-primary transition-colors" data-path="accessibility" href="#">Accessibility</a><a class="hover:text-on-primary transition-colors" data-path="nondiscrimination" href="#">Non-Discrimination Policy</a></div></div></div></footer></body></html>
