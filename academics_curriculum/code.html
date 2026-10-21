@@ -500,7 +500,7 @@
 <h3 class="font-title-lg text-title-lg text-primary" id="term-display-title">Key Academic Dates &amp; Examinations</h3>
 <p class="font-body-sm text-body-sm text-on-surface-variant" id="term-display-subtitle">Fall Semester: August 28, 2025 – December 19, 2025</p>
 </div>
-<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Fall 2025</span>
+<span id="term-display-badge" class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Fall 2025</span>
 </div>
 <!-- Schedule Row Items -->
 <div class="space-y-space-xs pt-space-xs" id="term-events-container">
@@ -892,6 +892,7 @@
 
       document.getElementById('term-display-title').textContent = data.title;
       document.getElementById('term-display-subtitle').textContent = data.subtitle;
+      document.getElementById('term-display-badge').textContent = data.badge;
 
       const container = document.getElementById('term-events-container');
       container.innerHTML = '';
